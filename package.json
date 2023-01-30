@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "templates",
+  "version": "1.0.0",
+  "description": "My templates.",
+  "keywords": ["templates"],
+  "author": "ttionya <git@ttionya.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/ttionya/templates",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttionya/templates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ttionya/templates/issues"
+  },
+  "scripts": {
+    "bootstrap": "pnpm install",
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@ttionya/prettier-config": "^1.1.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.1.0"
+  }
+}
